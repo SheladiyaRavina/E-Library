@@ -1,0 +1,222 @@
+export const bookData = [
+    {
+      id: 1,
+      title: "To Kill a Mockingbird",
+      author: "Harper Lee",
+      genre: "Fiction",
+      category: "Classic",
+      publicationDate: "1960-07-11",
+      isbn: "9780446310789",
+      description: "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg"
+    },
+    {
+      id: 2,
+      title: "1984",
+      author: "George Orwell",
+      genre: "Science Fiction",
+      publicationDate: "1949-06-08",
+      isbn: "9780451524935",
+      category: "Trending",
+      description: "A dystopian novel set in a totalitarian society, exploring the dangers of government overreach, totalitarianism, and repressive regimentation of all persons and behaviors within society.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg"
+    },
+    {
+      id: 3,
+      title: "Pride and Prejudice",
+      author: "Jane Austen",
+      genre: "Romance",
+      category: "Classic",
+      publicationDate: "1813-01-28",
+      isbn: "9780141439518",
+      description: "A romantic novel of manners that follows the character development of Elizabeth Bennet, the dynamic protagonist of the book who learns about the repercussions of hasty judgments.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320399351i/1885.jpg"
+    },
+    {
+      id: 4,
+      title: "The Catcher in the Rye",
+      author: "J.D. Salinger",
+      genre: "Fiction",
+      category: "Trending",
+      publicationDate: "1951-07-16",
+      isbn: "9780316769174",
+      description: "The story of a teenage boy dealing with alienation and loss, set against the backdrop of 1950s New York City.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg"
+    },
+    {
+      id: 5,
+      title: "The Great Gatsby",
+      author: "F. Scott Fitzgerald",
+      genre: "Fiction",
+      category: "Trending",
+      publicationDate: "1925-04-10",
+      isbn: "9780743273565",
+      description: "A novel of the Jazz Age that depicts the empty lives of wealthy young people in the 1920s America.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1490528560i/4671.jpg"
+    },
+    {
+      id: 6,
+      title: "The Hobbit",
+      author: "J.R.R. Tolkien",
+      genre: "Fantasy",
+      category: "Textbook",
+      publicationDate: "1937-09-21",
+      isbn: "9780547928227",
+      description: "A fantasy novel about the adventures of hobbit Bilbo Baggins, who is hired by the wizard Gandalf to accompany 13 dwarves on a quest to reclaim their treasure from a dragon.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg"
+    },
+    {
+      id: 7,
+      title: "The Da Vinci Code",
+      author: "Dan Brown",
+      genre: "Thriller",
+      category: "Textbook",
+      publicationDate: "2003-03-18",
+      isbn: "9780307474278",
+      description: "A thriller that follows symbologist Robert Langdon as he investigates a murder in the Louvre and discovers a battle between the Priory of Sion and Opus Dei over the possibility of Jesus having been married to Mary Magdalene.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579621267i/968.jpg"
+    },
+    {
+      id: 8,
+      title: "The Hunger Games",
+      author: "Suzanne Collins",
+      genre: "Young Adult",
+      category: "classic",
+      publicationDate: "2008-09-14",
+      isbn: "9780439023481",
+      description: "In a dystopian future, a young girl volunteers to take her sister's place in a televised survival competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg"
+    },
+    {
+      id: 9,
+      title: "The Girl with the Dragon Tattoo",
+      author: "Stieg Larsson",
+      genre: "Mystery",
+      category: "classic",
+      publicationDate: "2005-08-01",
+      isbn: "9780307454546",
+      description: "A psychological thriller that follows journalist Mikael Blomkvist and hacker Lisbeth Salander as they investigate a decades-old disappearance.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327868566i/2429135.jpg"
+    },
+    {
+      id: 10,
+      title: "The Alchemist",
+      author: "Paulo Coelho",
+      genre: "Fiction",
+      category: "Trending",
+      publicationDate: "1988-01-01",
+      isbn: "9780062315007",
+      description: "A philosophical novel about a young Andalusian shepherd who yearns to travel in search of a worldly treasure, but ends up finding a far more satisfying treasure within.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg"
+    },
+    {
+      id: 11,
+      title: "The Lord of the Rings",
+      author: "J.R.R. Tolkien",
+      genre: "Fantasy",
+      category: "Trending",
+      publicationDate: "1954-07-29",
+      isbn: "9780618640157",
+      description: "An epic high-fantasy novel that follows hobbit Frodo Baggins as he and the Fellowship embark on a quest to destroy the One Ring and defeat the Dark Lord Sauron.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg"
+    },
+    {
+      id: 12,
+      title: "Harry Potter and the Philosopher's Stone",
+      author: "J.K. Rowling",
+      genre: "Fantasy",
+      category: "Textbook",
+      publicationDate: "1997-06-26",
+      isbn: "9780747532699",
+      description: "The first novel in the Harry Potter series, introducing the world of Hogwarts School of Witchcraft and Wizardry.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1474154022i/3.jpg"
+    },
+    {
+      id: 13,
+      title: "The Hitchhiker's Guide to the Galaxy",
+      author: "Douglas Adams",
+      genre: "Science Fiction",
+      category: "Textbook",
+      publicationDate: "1979-10-12",
+      isbn: "9780345391803",
+      description: "A comedic science fiction series following the adventures of Arthur Dent, the last human survivor after the Earth is demolished to make way for a galactic freeway.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1559986152i/386162.jpg"
+    },
+    {
+      id: 14,
+      title: "The Shining",
+      author: "Stephen King",
+      genre: "Horror",
+      category: "Trending",
+      publicationDate: "1977-01-28",
+      isbn: "9780307743657",
+      description: "A horror novel about a family that becomes caretakers of an isolated hotel for the winter, where an evil presence influences the father into violence.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1353277730i/11588.jpg"
+    },
+    {
+      id: 15,
+      title: "The Chronicles of Narnia",
+      author: "C.S. Lewis",
+      genre: "Fantasy",
+      category: "Trending",
+      publicationDate: "1950-10-16",
+      isbn: "9780066238500",
+      description: "A series of fantasy novels that chronicle the adventures of various children who are magically transported to the world of Narnia, where they are called upon by the lion Aslan to protect Narnia from evil.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1449868701i/11127.jpg"
+    },
+    {
+      id: 16,
+      title: "The Fault in Our Stars",
+      author: "John Green",
+      genre: "Young Adult",
+      category: "Classic",
+      publicationDate: "2012-01-10",
+      isbn: "9780525478812",
+      description: "A novel about two teenagers who fall in love after meeting at a cancer support group.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1360206420i/11870085.jpg"
+    },
+    {
+      id: 17,
+      title: "The Martian",
+      author: "Andy Weir",
+      genre: "Science Fiction",
+      category: "Classic",
+      publicationDate: "2011-09-27",
+      isbn: "9780553418026",
+      description: "A science fiction novel about an astronaut who becomes stranded alone on Mars and must improvise to survive.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1413706054i/18007564.jpg"
+    },
+    {
+      id: 18,
+      title: "The Girl on the Train",
+      author: "Paula Hawkins",
+      category: "Textbook",
+      genre: "Thriller",
+      publicationDate: "2015-01-13",
+      isbn: "9781594633669",
+      description: "A psychological thriller about a woman who becomes entangled in a missing persons investigation that promises to send shockwaves throughout her life.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1574805682i/22557272.jpg"
+    },
+    {
+      id: 19,
+      title: "The Kite Runner",
+      author: "Khaled Hosseini",
+      genre: "Fiction",
+      category: "Classic",
+      publicationDate: "2003-05-29",
+      isbn: "9781594631931",
+      description: "A novel set against a backdrop of tumultuous events, from the fall of Afghanistan's monarchy through the Soviet military intervention, the exodus of refugees to Pakistan and the United States, and the rise of the Taliban regime.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1579036753i/77203.jpg"
+    },
+    {
+      id: 20,
+      title: "The Handmaid's Tale",
+      author: "Margaret Atwood",
+      genre: "Dystopian",
+      category: "Textbook",
+      publicationDate: "1985-06-01",
+      isbn: "9780385490818",
+      description: "A dystopian novel set in a near-future New England, in a totalitarian state resembling a theonomy that has overthrown the United States government.",
+      imageUrl: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1578028274i/38447.jpg"
+    }
+  ];
